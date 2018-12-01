@@ -1,0 +1,50 @@
+/* CSS Document */
+
+html,body {height: 100% !important}
+.no-scroll {overflow-y: hidden !important; overflow-x: hidden !important; overflow: hidden !important}
+
+.container-fluid.full {margin: 0px !important; padding: 0px !important}
+
+
+/* Hide on Large Screen */
+@media (min-width: 993px) {
+	.hide-lg {display: none !important}
+
+}
+
+/* Hide on Medium Screen */
+@media (min-width: 601px) and (max-width: 993px) {
+	.hide-md {display: none !important}
+
+}
+
+/* Hide on Small Screen */
+@media (max-width: 601px) {
+	.hide-sm {display: none !important}
+
+}
+
+/* Hide on Touch Screen (Tablet and Smartphone) */
+@media (max-width: 601px) and (max-width: 993px) {
+	.hide-touch {display: none !important}
+}
+
+.gambar-login {
+	background-image: url('/img/bg3.jpg');
+	background-position: center;
+	background-attachment: scroll;
+	background-size: cover;
+	height: 100%;
+
+}
+
+h2.coinstrash {
+	letter-spacing: 5px
+}
+
+input.kostum {border: 0px; border-bottom: 1px solid #CCC !important; border-radius: 0px !important}
+
+.w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.w3-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
